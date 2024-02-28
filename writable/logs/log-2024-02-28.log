@@ -1,0 +1,1194 @@
+ERROR - 2024-02-28 14:11:44 --> Error connecting to the database: mysqli_sql_exception: No such file or directory in /home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/system/Database/MySQLi/Connection.php:185
+Stack trace:
+#0 /home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/system/Database/MySQLi/Connection.php(185): mysqli->real_connect()
+#1 /home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/system/Database/BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect()
+#2 /home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/system/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#3 /home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/system/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+#4 /home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/system/Model.php(242): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/system/BaseModel.php(638): CodeIgniter\Model->doFindAll()
+#6 /home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/app/Controllers/Products.php(17): CodeIgniter\BaseModel->findAll()
+#7 /home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/system/CodeIgniter.php(941): App\Controllers\Products->index()
+#8 /home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+#9 /home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+#10 /home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#11 /home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/system/Commands/Server/rewrite.php(47): require_once('...')
+#12 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No such file or directory in /home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/system/Database/MySQLi/Connection.php:229
+Stack trace:
+#0 /home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/system/Database/BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect()
+#1 /home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/system/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#2 /home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/system/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+#3 /home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/system/Model.php(242): CodeIgniter\Database\BaseBuilder->get()
+#4 /home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/system/BaseModel.php(638): CodeIgniter\Model->doFindAll()
+#5 /home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/app/Controllers/Products.php(17): CodeIgniter\BaseModel->findAll()
+#6 /home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/system/CodeIgniter.php(941): App\Controllers\Products->index()
+#7 /home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+#8 /home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+#9 /home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#10 /home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/system/Commands/Server/rewrite.php(47): require_once('...')
+#11 {main}
+CRITICAL - 2024-02-28 14:11:44 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: No such file or directory
+in SYSTEMPATH/Database/BaseConnection.php on line 428.
+ 1 SYSTEMPATH/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+ 3 SYSTEMPATH/Model.php(242): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH/BaseModel.php(638): CodeIgniter\Model->doFindAll()
+ 5 APPPATH/Controllers/Products.php(17): CodeIgniter\BaseModel->findAll()
+ 6 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Products->index()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/public/index.php')
+ERROR - 2024-02-28 14:13:03 --> Error connecting to the database: mysqli_sql_exception: No such file or directory in /home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/system/Database/MySQLi/Connection.php:185
+Stack trace:
+#0 /home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/system/Database/MySQLi/Connection.php(185): mysqli->real_connect()
+#1 /home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/system/Database/BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect()
+#2 /home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/system/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#3 /home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/system/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+#4 /home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/system/Model.php(270): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/system/BaseModel.php(676): CodeIgniter\Model->doFirst()
+#6 /home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/app/Controllers/Products.php(26): CodeIgniter\BaseModel->first()
+#7 /home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/system/CodeIgniter.php(941): App\Controllers\Products->show()
+#8 /home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+#9 /home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+#10 /home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#11 /home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/system/Commands/Server/rewrite.php(47): require_once('...')
+#12 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No such file or directory in /home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/system/Database/MySQLi/Connection.php:229
+Stack trace:
+#0 /home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/system/Database/BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect()
+#1 /home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/system/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#2 /home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/system/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+#3 /home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/system/Model.php(270): CodeIgniter\Database\BaseBuilder->get()
+#4 /home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/system/BaseModel.php(676): CodeIgniter\Model->doFirst()
+#5 /home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/app/Controllers/Products.php(26): CodeIgniter\BaseModel->first()
+#6 /home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/system/CodeIgniter.php(941): App\Controllers\Products->show()
+#7 /home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+#8 /home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+#9 /home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#10 /home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/system/Commands/Server/rewrite.php(47): require_once('...')
+#11 {main}
+CRITICAL - 2024-02-28 14:13:03 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: No such file or directory
+in SYSTEMPATH/Database/BaseConnection.php on line 428.
+ 1 SYSTEMPATH/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+ 3 SYSTEMPATH/Model.php(270): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH/BaseModel.php(676): CodeIgniter\Model->doFirst()
+ 5 APPPATH/Controllers/Products.php(26): CodeIgniter\BaseModel->first()
+ 6 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Products->show()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/public/index.php')
+ERROR - 2024-02-28 14:13:19 --> Error connecting to the database: mysqli_sql_exception: No such file or directory in /home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/system/Database/MySQLi/Connection.php:185
+Stack trace:
+#0 /home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/system/Database/MySQLi/Connection.php(185): mysqli->real_connect()
+#1 /home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/system/Database/BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect()
+#2 /home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/system/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#3 /home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/system/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+#4 /home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/system/Model.php(242): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/system/BaseModel.php(638): CodeIgniter\Model->doFindAll()
+#6 /home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/app/Controllers/Products.php(17): CodeIgniter\BaseModel->findAll()
+#7 /home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/system/CodeIgniter.php(941): App\Controllers\Products->index()
+#8 /home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+#9 /home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+#10 /home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#11 /home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/system/Commands/Server/rewrite.php(47): require_once('...')
+#12 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No such file or directory in /home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/system/Database/MySQLi/Connection.php:229
+Stack trace:
+#0 /home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/system/Database/BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect()
+#1 /home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/system/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#2 /home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/system/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+#3 /home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/system/Model.php(242): CodeIgniter\Database\BaseBuilder->get()
+#4 /home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/system/BaseModel.php(638): CodeIgniter\Model->doFindAll()
+#5 /home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/app/Controllers/Products.php(17): CodeIgniter\BaseModel->findAll()
+#6 /home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/system/CodeIgniter.php(941): App\Controllers\Products->index()
+#7 /home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+#8 /home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+#9 /home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#10 /home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/system/Commands/Server/rewrite.php(47): require_once('...')
+#11 {main}
+CRITICAL - 2024-02-28 14:13:19 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: No such file or directory
+in SYSTEMPATH/Database/BaseConnection.php on line 428.
+ 1 SYSTEMPATH/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+ 3 SYSTEMPATH/Model.php(242): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH/BaseModel.php(638): CodeIgniter\Model->doFindAll()
+ 5 APPPATH/Controllers/Products.php(17): CodeIgniter\BaseModel->findAll()
+ 6 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Products->index()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/public/index.php')
+ERROR - 2024-02-28 14:14:08 --> Error connecting to the database: mysqli_sql_exception: No such file or directory in /home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/system/Database/MySQLi/Connection.php:185
+Stack trace:
+#0 /home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/system/Database/MySQLi/Connection.php(185): mysqli->real_connect()
+#1 /home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/system/Database/BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect()
+#2 /home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/system/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#3 /home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/system/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+#4 /home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/system/Model.php(242): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/system/BaseModel.php(638): CodeIgniter\Model->doFindAll()
+#6 /home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/app/Controllers/Products.php(17): CodeIgniter\BaseModel->findAll()
+#7 /home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/system/CodeIgniter.php(941): App\Controllers\Products->index()
+#8 /home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+#9 /home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+#10 /home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#11 /home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/system/Commands/Server/rewrite.php(47): require_once('...')
+#12 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No such file or directory in /home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/system/Database/MySQLi/Connection.php:229
+Stack trace:
+#0 /home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/system/Database/BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect()
+#1 /home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/system/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#2 /home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/system/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+#3 /home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/system/Model.php(242): CodeIgniter\Database\BaseBuilder->get()
+#4 /home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/system/BaseModel.php(638): CodeIgniter\Model->doFindAll()
+#5 /home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/app/Controllers/Products.php(17): CodeIgniter\BaseModel->findAll()
+#6 /home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/system/CodeIgniter.php(941): App\Controllers\Products->index()
+#7 /home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+#8 /home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+#9 /home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#10 /home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/system/Commands/Server/rewrite.php(47): require_once('...')
+#11 {main}
+CRITICAL - 2024-02-28 14:14:08 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: No such file or directory
+in SYSTEMPATH/Database/BaseConnection.php on line 428.
+ 1 SYSTEMPATH/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+ 3 SYSTEMPATH/Model.php(242): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH/BaseModel.php(638): CodeIgniter\Model->doFindAll()
+ 5 APPPATH/Controllers/Products.php(17): CodeIgniter\BaseModel->findAll()
+ 6 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Products->index()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/public/index.php')
+ERROR - 2024-02-28 14:14:10 --> Error connecting to the database: mysqli_sql_exception: No such file or directory in /home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/system/Database/MySQLi/Connection.php:185
+Stack trace:
+#0 /home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/system/Database/MySQLi/Connection.php(185): mysqli->real_connect()
+#1 /home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/system/Database/BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect()
+#2 /home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/system/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#3 /home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/system/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+#4 /home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/system/Model.php(242): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/system/BaseModel.php(638): CodeIgniter\Model->doFindAll()
+#6 /home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/app/Controllers/Products.php(17): CodeIgniter\BaseModel->findAll()
+#7 /home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/system/CodeIgniter.php(941): App\Controllers\Products->index()
+#8 /home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+#9 /home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+#10 /home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#11 /home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/system/Commands/Server/rewrite.php(47): require_once('...')
+#12 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No such file or directory in /home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/system/Database/MySQLi/Connection.php:229
+Stack trace:
+#0 /home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/system/Database/BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect()
+#1 /home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/system/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#2 /home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/system/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+#3 /home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/system/Model.php(242): CodeIgniter\Database\BaseBuilder->get()
+#4 /home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/system/BaseModel.php(638): CodeIgniter\Model->doFindAll()
+#5 /home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/app/Controllers/Products.php(17): CodeIgniter\BaseModel->findAll()
+#6 /home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/system/CodeIgniter.php(941): App\Controllers\Products->index()
+#7 /home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+#8 /home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+#9 /home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#10 /home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/system/Commands/Server/rewrite.php(47): require_once('...')
+#11 {main}
+CRITICAL - 2024-02-28 14:14:10 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: No such file or directory
+in SYSTEMPATH/Database/BaseConnection.php on line 428.
+ 1 SYSTEMPATH/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+ 3 SYSTEMPATH/Model.php(242): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH/BaseModel.php(638): CodeIgniter\Model->doFindAll()
+ 5 APPPATH/Controllers/Products.php(17): CodeIgniter\BaseModel->findAll()
+ 6 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Products->index()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/public/index.php')
+ERROR - 2024-02-28 14:15:05 --> Error connecting to the database: mysqli_sql_exception: No such file or directory in /home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/system/Database/MySQLi/Connection.php:185
+Stack trace:
+#0 /home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/system/Database/MySQLi/Connection.php(185): mysqli->real_connect()
+#1 /home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/system/Database/BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect()
+#2 /home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/system/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#3 /home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/system/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+#4 /home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/system/Model.php(242): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/system/BaseModel.php(638): CodeIgniter\Model->doFindAll()
+#6 /home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/app/Controllers/Products.php(17): CodeIgniter\BaseModel->findAll()
+#7 /home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/system/CodeIgniter.php(941): App\Controllers\Products->index()
+#8 /home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+#9 /home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+#10 /home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#11 /home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/system/Commands/Server/rewrite.php(47): require_once('...')
+#12 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No such file or directory in /home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/system/Database/MySQLi/Connection.php:229
+Stack trace:
+#0 /home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/system/Database/BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect()
+#1 /home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/system/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#2 /home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/system/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+#3 /home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/system/Model.php(242): CodeIgniter\Database\BaseBuilder->get()
+#4 /home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/system/BaseModel.php(638): CodeIgniter\Model->doFindAll()
+#5 /home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/app/Controllers/Products.php(17): CodeIgniter\BaseModel->findAll()
+#6 /home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/system/CodeIgniter.php(941): App\Controllers\Products->index()
+#7 /home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+#8 /home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+#9 /home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#10 /home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/system/Commands/Server/rewrite.php(47): require_once('...')
+#11 {main}
+CRITICAL - 2024-02-28 14:15:05 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: No such file or directory
+in SYSTEMPATH/Database/BaseConnection.php on line 428.
+ 1 SYSTEMPATH/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+ 3 SYSTEMPATH/Model.php(242): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH/BaseModel.php(638): CodeIgniter\Model->doFindAll()
+ 5 APPPATH/Controllers/Products.php(17): CodeIgniter\BaseModel->findAll()
+ 6 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Products->index()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/public/index.php')
+ERROR - 2024-02-28 14:15:23 --> Error connecting to the database: mysqli_sql_exception: No such file or directory in /home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/system/Database/MySQLi/Connection.php:185
+Stack trace:
+#0 /home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/system/Database/MySQLi/Connection.php(185): mysqli->real_connect()
+#1 /home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/system/Database/BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect()
+#2 /home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/system/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#3 /home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/system/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+#4 /home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/system/Model.php(242): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/system/BaseModel.php(638): CodeIgniter\Model->doFindAll()
+#6 /home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/app/Controllers/Products.php(17): CodeIgniter\BaseModel->findAll()
+#7 /home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/system/CodeIgniter.php(941): App\Controllers\Products->index()
+#8 /home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+#9 /home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+#10 /home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#11 /home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/system/Commands/Server/rewrite.php(47): require_once('...')
+#12 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No such file or directory in /home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/system/Database/MySQLi/Connection.php:229
+Stack trace:
+#0 /home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/system/Database/BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect()
+#1 /home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/system/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#2 /home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/system/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+#3 /home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/system/Model.php(242): CodeIgniter\Database\BaseBuilder->get()
+#4 /home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/system/BaseModel.php(638): CodeIgniter\Model->doFindAll()
+#5 /home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/app/Controllers/Products.php(17): CodeIgniter\BaseModel->findAll()
+#6 /home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/system/CodeIgniter.php(941): App\Controllers\Products->index()
+#7 /home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+#8 /home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+#9 /home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#10 /home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/system/Commands/Server/rewrite.php(47): require_once('...')
+#11 {main}
+CRITICAL - 2024-02-28 14:15:23 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: No such file or directory
+in SYSTEMPATH/Database/BaseConnection.php on line 428.
+ 1 SYSTEMPATH/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+ 3 SYSTEMPATH/Model.php(242): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH/BaseModel.php(638): CodeIgniter\Model->doFindAll()
+ 5 APPPATH/Controllers/Products.php(17): CodeIgniter\BaseModel->findAll()
+ 6 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Products->index()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/public/index.php')
+ERROR - 2024-02-28 14:15:27 --> Error connecting to the database: mysqli_sql_exception: No such file or directory in /home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/system/Database/MySQLi/Connection.php:185
+Stack trace:
+#0 /home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/system/Database/MySQLi/Connection.php(185): mysqli->real_connect()
+#1 /home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/system/Database/BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect()
+#2 /home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/system/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#3 /home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/system/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+#4 /home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/system/Model.php(242): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/system/BaseModel.php(638): CodeIgniter\Model->doFindAll()
+#6 /home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/app/Controllers/Products.php(17): CodeIgniter\BaseModel->findAll()
+#7 /home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/system/CodeIgniter.php(941): App\Controllers\Products->index()
+#8 /home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+#9 /home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+#10 /home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#11 /home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/system/Commands/Server/rewrite.php(47): require_once('...')
+#12 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No such file or directory in /home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/system/Database/MySQLi/Connection.php:229
+Stack trace:
+#0 /home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/system/Database/BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect()
+#1 /home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/system/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#2 /home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/system/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+#3 /home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/system/Model.php(242): CodeIgniter\Database\BaseBuilder->get()
+#4 /home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/system/BaseModel.php(638): CodeIgniter\Model->doFindAll()
+#5 /home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/app/Controllers/Products.php(17): CodeIgniter\BaseModel->findAll()
+#6 /home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/system/CodeIgniter.php(941): App\Controllers\Products->index()
+#7 /home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+#8 /home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+#9 /home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#10 /home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/system/Commands/Server/rewrite.php(47): require_once('...')
+#11 {main}
+CRITICAL - 2024-02-28 14:15:27 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: No such file or directory
+in SYSTEMPATH/Database/BaseConnection.php on line 428.
+ 1 SYSTEMPATH/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+ 3 SYSTEMPATH/Model.php(242): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH/BaseModel.php(638): CodeIgniter\Model->doFindAll()
+ 5 APPPATH/Controllers/Products.php(17): CodeIgniter\BaseModel->findAll()
+ 6 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Products->index()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/public/index.php')
+ERROR - 2024-02-28 14:15:48 --> Error connecting to the database: mysqli_sql_exception: No such file or directory in /home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/system/Database/MySQLi/Connection.php:185
+Stack trace:
+#0 /home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/system/Database/MySQLi/Connection.php(185): mysqli->real_connect()
+#1 /home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/system/Database/BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect()
+#2 /home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/system/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#3 /home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/system/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+#4 /home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/system/Model.php(242): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/system/BaseModel.php(638): CodeIgniter\Model->doFindAll()
+#6 /home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/app/Controllers/Products.php(17): CodeIgniter\BaseModel->findAll()
+#7 /home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/system/CodeIgniter.php(941): App\Controllers\Products->index()
+#8 /home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+#9 /home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+#10 /home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#11 /home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/system/Commands/Server/rewrite.php(47): require_once('...')
+#12 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No such file or directory in /home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/system/Database/MySQLi/Connection.php:229
+Stack trace:
+#0 /home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/system/Database/BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect()
+#1 /home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/system/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#2 /home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/system/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+#3 /home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/system/Model.php(242): CodeIgniter\Database\BaseBuilder->get()
+#4 /home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/system/BaseModel.php(638): CodeIgniter\Model->doFindAll()
+#5 /home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/app/Controllers/Products.php(17): CodeIgniter\BaseModel->findAll()
+#6 /home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/system/CodeIgniter.php(941): App\Controllers\Products->index()
+#7 /home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+#8 /home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+#9 /home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#10 /home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/system/Commands/Server/rewrite.php(47): require_once('...')
+#11 {main}
+CRITICAL - 2024-02-28 14:15:48 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: No such file or directory
+in SYSTEMPATH/Database/BaseConnection.php on line 428.
+ 1 SYSTEMPATH/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+ 3 SYSTEMPATH/Model.php(242): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH/BaseModel.php(638): CodeIgniter\Model->doFindAll()
+ 5 APPPATH/Controllers/Products.php(17): CodeIgniter\BaseModel->findAll()
+ 6 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Products->index()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/public/index.php')
+ERROR - 2024-02-28 14:17:40 --> Error connecting to the database: mysqli_sql_exception: No such file or directory in /home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/system/Database/MySQLi/Connection.php:185
+Stack trace:
+#0 /home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/system/Database/MySQLi/Connection.php(185): mysqli->real_connect()
+#1 /home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/system/Database/BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect()
+#2 /home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/system/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#3 /home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/system/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+#4 /home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/system/Model.php(242): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/system/BaseModel.php(638): CodeIgniter\Model->doFindAll()
+#6 /home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/app/Controllers/Products.php(17): CodeIgniter\BaseModel->findAll()
+#7 /home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/system/CodeIgniter.php(941): App\Controllers\Products->index()
+#8 /home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+#9 /home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+#10 /home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#11 /home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/system/Commands/Server/rewrite.php(47): require_once('...')
+#12 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No such file or directory in /home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/system/Database/MySQLi/Connection.php:229
+Stack trace:
+#0 /home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/system/Database/BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect()
+#1 /home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/system/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#2 /home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/system/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+#3 /home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/system/Model.php(242): CodeIgniter\Database\BaseBuilder->get()
+#4 /home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/system/BaseModel.php(638): CodeIgniter\Model->doFindAll()
+#5 /home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/app/Controllers/Products.php(17): CodeIgniter\BaseModel->findAll()
+#6 /home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/system/CodeIgniter.php(941): App\Controllers\Products->index()
+#7 /home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+#8 /home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+#9 /home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#10 /home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/system/Commands/Server/rewrite.php(47): require_once('...')
+#11 {main}
+CRITICAL - 2024-02-28 14:17:40 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: No such file or directory
+in SYSTEMPATH/Database/BaseConnection.php on line 428.
+ 1 SYSTEMPATH/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+ 3 SYSTEMPATH/Model.php(242): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH/BaseModel.php(638): CodeIgniter\Model->doFindAll()
+ 5 APPPATH/Controllers/Products.php(17): CodeIgniter\BaseModel->findAll()
+ 6 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Products->index()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/public/index.php')
+ERROR - 2024-02-28 14:18:19 --> Error connecting to the database: mysqli_sql_exception: No such file or directory in /home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/system/Database/MySQLi/Connection.php:185
+Stack trace:
+#0 /home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/system/Database/MySQLi/Connection.php(185): mysqli->real_connect()
+#1 /home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/system/Database/BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect()
+#2 /home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/system/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#3 /home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/system/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+#4 /home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/system/Model.php(242): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/system/BaseModel.php(638): CodeIgniter\Model->doFindAll()
+#6 /home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/app/Controllers/Products.php(17): CodeIgniter\BaseModel->findAll()
+#7 /home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/system/CodeIgniter.php(941): App\Controllers\Products->index()
+#8 /home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+#9 /home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+#10 /home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#11 /home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/system/Commands/Server/rewrite.php(47): require_once('...')
+#12 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No such file or directory in /home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/system/Database/MySQLi/Connection.php:229
+Stack trace:
+#0 /home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/system/Database/BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect()
+#1 /home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/system/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#2 /home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/system/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+#3 /home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/system/Model.php(242): CodeIgniter\Database\BaseBuilder->get()
+#4 /home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/system/BaseModel.php(638): CodeIgniter\Model->doFindAll()
+#5 /home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/app/Controllers/Products.php(17): CodeIgniter\BaseModel->findAll()
+#6 /home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/system/CodeIgniter.php(941): App\Controllers\Products->index()
+#7 /home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+#8 /home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+#9 /home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#10 /home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/system/Commands/Server/rewrite.php(47): require_once('...')
+#11 {main}
+CRITICAL - 2024-02-28 14:18:19 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: No such file or directory
+in SYSTEMPATH/Database/BaseConnection.php on line 428.
+ 1 SYSTEMPATH/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+ 3 SYSTEMPATH/Model.php(242): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH/BaseModel.php(638): CodeIgniter\Model->doFindAll()
+ 5 APPPATH/Controllers/Products.php(17): CodeIgniter\BaseModel->findAll()
+ 6 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Products->index()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/public/index.php')
+ERROR - 2024-02-28 14:21:45 --> Error connecting to the database: mysqli_sql_exception: No such file or directory in /home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/system/Database/MySQLi/Connection.php:185
+Stack trace:
+#0 /home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/system/Database/MySQLi/Connection.php(185): mysqli->real_connect()
+#1 /home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/system/Database/BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect()
+#2 /home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/system/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#3 /home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/system/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+#4 /home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/system/Model.php(242): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/system/BaseModel.php(638): CodeIgniter\Model->doFindAll()
+#6 /home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/app/Controllers/Products.php(17): CodeIgniter\BaseModel->findAll()
+#7 /home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/system/CodeIgniter.php(941): App\Controllers\Products->index()
+#8 /home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+#9 /home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+#10 /home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#11 /home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/system/Commands/Server/rewrite.php(47): require_once('...')
+#12 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No such file or directory in /home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/system/Database/MySQLi/Connection.php:229
+Stack trace:
+#0 /home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/system/Database/BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect()
+#1 /home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/system/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#2 /home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/system/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+#3 /home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/system/Model.php(242): CodeIgniter\Database\BaseBuilder->get()
+#4 /home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/system/BaseModel.php(638): CodeIgniter\Model->doFindAll()
+#5 /home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/app/Controllers/Products.php(17): CodeIgniter\BaseModel->findAll()
+#6 /home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/system/CodeIgniter.php(941): App\Controllers\Products->index()
+#7 /home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+#8 /home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+#9 /home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#10 /home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/system/Commands/Server/rewrite.php(47): require_once('...')
+#11 {main}
+CRITICAL - 2024-02-28 14:21:45 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: No such file or directory
+in SYSTEMPATH/Database/BaseConnection.php on line 428.
+ 1 SYSTEMPATH/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+ 3 SYSTEMPATH/Model.php(242): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH/BaseModel.php(638): CodeIgniter\Model->doFindAll()
+ 5 APPPATH/Controllers/Products.php(17): CodeIgniter\BaseModel->findAll()
+ 6 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Products->index()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/public/index.php')
+ERROR - 2024-02-28 14:31:14 --> Error connecting to the database: mysqli_sql_exception: No such file or directory in /home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/system/Database/MySQLi/Connection.php:185
+Stack trace:
+#0 /home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/system/Database/MySQLi/Connection.php(185): mysqli->real_connect()
+#1 /home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/system/Database/BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect()
+#2 /home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/system/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#3 /home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/system/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+#4 /home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/system/Model.php(242): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/system/BaseModel.php(638): CodeIgniter\Model->doFindAll()
+#6 /home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/app/Controllers/Products.php(17): CodeIgniter\BaseModel->findAll()
+#7 /home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/system/CodeIgniter.php(941): App\Controllers\Products->index()
+#8 /home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+#9 /home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+#10 /home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#11 /home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/system/Commands/Server/rewrite.php(47): require_once('...')
+#12 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No such file or directory in /home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/system/Database/MySQLi/Connection.php:229
+Stack trace:
+#0 /home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/system/Database/BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect()
+#1 /home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/system/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#2 /home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/system/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+#3 /home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/system/Model.php(242): CodeIgniter\Database\BaseBuilder->get()
+#4 /home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/system/BaseModel.php(638): CodeIgniter\Model->doFindAll()
+#5 /home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/app/Controllers/Products.php(17): CodeIgniter\BaseModel->findAll()
+#6 /home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/system/CodeIgniter.php(941): App\Controllers\Products->index()
+#7 /home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+#8 /home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+#9 /home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#10 /home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/system/Commands/Server/rewrite.php(47): require_once('...')
+#11 {main}
+CRITICAL - 2024-02-28 14:31:14 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: No such file or directory
+in SYSTEMPATH/Database/BaseConnection.php on line 428.
+ 1 SYSTEMPATH/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+ 3 SYSTEMPATH/Model.php(242): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH/BaseModel.php(638): CodeIgniter\Model->doFindAll()
+ 5 APPPATH/Controllers/Products.php(17): CodeIgniter\BaseModel->findAll()
+ 6 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Products->index()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/public/index.php')
+ERROR - 2024-02-28 14:34:17 --> Error connecting to the database: mysqli_sql_exception: No such file or directory in /home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/system/Database/MySQLi/Connection.php:185
+Stack trace:
+#0 /home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/system/Database/MySQLi/Connection.php(185): mysqli->real_connect()
+#1 /home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/system/Database/BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect()
+#2 /home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/system/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#3 /home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/system/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+#4 /home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/system/Model.php(242): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/system/BaseModel.php(638): CodeIgniter\Model->doFindAll()
+#6 /home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/app/Controllers/Products.php(17): CodeIgniter\BaseModel->findAll()
+#7 /home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/system/CodeIgniter.php(941): App\Controllers\Products->index()
+#8 /home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+#9 /home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+#10 /home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#11 /home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/system/Commands/Server/rewrite.php(47): require_once('...')
+#12 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No such file or directory in /home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/system/Database/MySQLi/Connection.php:229
+Stack trace:
+#0 /home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/system/Database/BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect()
+#1 /home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/system/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#2 /home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/system/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+#3 /home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/system/Model.php(242): CodeIgniter\Database\BaseBuilder->get()
+#4 /home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/system/BaseModel.php(638): CodeIgniter\Model->doFindAll()
+#5 /home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/app/Controllers/Products.php(17): CodeIgniter\BaseModel->findAll()
+#6 /home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/system/CodeIgniter.php(941): App\Controllers\Products->index()
+#7 /home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+#8 /home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+#9 /home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#10 /home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/system/Commands/Server/rewrite.php(47): require_once('...')
+#11 {main}
+CRITICAL - 2024-02-28 14:34:17 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: No such file or directory
+in SYSTEMPATH/Database/BaseConnection.php on line 428.
+ 1 SYSTEMPATH/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+ 3 SYSTEMPATH/Model.php(242): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH/BaseModel.php(638): CodeIgniter\Model->doFindAll()
+ 5 APPPATH/Controllers/Products.php(17): CodeIgniter\BaseModel->findAll()
+ 6 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Products->index()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/public/index.php')
+ERROR - 2024-02-28 14:34:21 --> Error connecting to the database: mysqli_sql_exception: No such file or directory in /home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/system/Database/MySQLi/Connection.php:185
+Stack trace:
+#0 /home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/system/Database/MySQLi/Connection.php(185): mysqli->real_connect()
+#1 /home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/system/Database/BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect()
+#2 /home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/system/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#3 /home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/system/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+#4 /home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/system/Model.php(242): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/system/BaseModel.php(638): CodeIgniter\Model->doFindAll()
+#6 /home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/app/Controllers/Products.php(17): CodeIgniter\BaseModel->findAll()
+#7 /home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/system/CodeIgniter.php(941): App\Controllers\Products->index()
+#8 /home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+#9 /home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+#10 /home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#11 /home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/system/Commands/Server/rewrite.php(47): require_once('...')
+#12 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No such file or directory in /home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/system/Database/MySQLi/Connection.php:229
+Stack trace:
+#0 /home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/system/Database/BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect()
+#1 /home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/system/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#2 /home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/system/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+#3 /home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/system/Model.php(242): CodeIgniter\Database\BaseBuilder->get()
+#4 /home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/system/BaseModel.php(638): CodeIgniter\Model->doFindAll()
+#5 /home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/app/Controllers/Products.php(17): CodeIgniter\BaseModel->findAll()
+#6 /home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/system/CodeIgniter.php(941): App\Controllers\Products->index()
+#7 /home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+#8 /home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+#9 /home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#10 /home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/system/Commands/Server/rewrite.php(47): require_once('...')
+#11 {main}
+CRITICAL - 2024-02-28 14:34:21 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: No such file or directory
+in SYSTEMPATH/Database/BaseConnection.php on line 428.
+ 1 SYSTEMPATH/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+ 3 SYSTEMPATH/Model.php(242): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH/BaseModel.php(638): CodeIgniter\Model->doFindAll()
+ 5 APPPATH/Controllers/Products.php(17): CodeIgniter\BaseModel->findAll()
+ 6 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Products->index()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/public/index.php')
+ERROR - 2024-02-28 14:35:35 --> Error connecting to the database: mysqli_sql_exception: No such file or directory in /home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/system/Database/MySQLi/Connection.php:185
+Stack trace:
+#0 /home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/system/Database/MySQLi/Connection.php(185): mysqli->real_connect()
+#1 /home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/system/Database/BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect()
+#2 /home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/system/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#3 /home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/system/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+#4 /home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/system/Model.php(242): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/system/BaseModel.php(638): CodeIgniter\Model->doFindAll()
+#6 /home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/app/Controllers/Products.php(18): CodeIgniter\BaseModel->findAll()
+#7 /home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/system/CodeIgniter.php(941): App\Controllers\Products->index()
+#8 /home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+#9 /home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+#10 /home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#11 /home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/system/Commands/Server/rewrite.php(47): require_once('...')
+#12 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No such file or directory in /home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/system/Database/MySQLi/Connection.php:229
+Stack trace:
+#0 /home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/system/Database/BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect()
+#1 /home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/system/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#2 /home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/system/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+#3 /home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/system/Model.php(242): CodeIgniter\Database\BaseBuilder->get()
+#4 /home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/system/BaseModel.php(638): CodeIgniter\Model->doFindAll()
+#5 /home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/app/Controllers/Products.php(18): CodeIgniter\BaseModel->findAll()
+#6 /home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/system/CodeIgniter.php(941): App\Controllers\Products->index()
+#7 /home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+#8 /home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+#9 /home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#10 /home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/system/Commands/Server/rewrite.php(47): require_once('...')
+#11 {main}
+CRITICAL - 2024-02-28 14:35:35 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: No such file or directory
+in SYSTEMPATH/Database/BaseConnection.php on line 428.
+ 1 SYSTEMPATH/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+ 3 SYSTEMPATH/Model.php(242): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH/BaseModel.php(638): CodeIgniter\Model->doFindAll()
+ 5 APPPATH/Controllers/Products.php(18): CodeIgniter\BaseModel->findAll()
+ 6 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Products->index()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/public/index.php')
+ERROR - 2024-02-28 14:36:36 --> Error connecting to the database: mysqli_sql_exception: No such file or directory in /home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/system/Database/MySQLi/Connection.php:185
+Stack trace:
+#0 /home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/system/Database/MySQLi/Connection.php(185): mysqli->real_connect()
+#1 /home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/system/Database/BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect()
+#2 /home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/system/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#3 /home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/system/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+#4 /home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/system/Model.php(242): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/system/BaseModel.php(638): CodeIgniter\Model->doFindAll()
+#6 /home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/app/Controllers/Products.php(18): CodeIgniter\BaseModel->findAll()
+#7 /home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/system/CodeIgniter.php(941): App\Controllers\Products->index()
+#8 /home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+#9 /home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+#10 /home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#11 /home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/system/Commands/Server/rewrite.php(47): require_once('...')
+#12 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No such file or directory in /home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/system/Database/MySQLi/Connection.php:229
+Stack trace:
+#0 /home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/system/Database/BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect()
+#1 /home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/system/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#2 /home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/system/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+#3 /home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/system/Model.php(242): CodeIgniter\Database\BaseBuilder->get()
+#4 /home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/system/BaseModel.php(638): CodeIgniter\Model->doFindAll()
+#5 /home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/app/Controllers/Products.php(18): CodeIgniter\BaseModel->findAll()
+#6 /home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/system/CodeIgniter.php(941): App\Controllers\Products->index()
+#7 /home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+#8 /home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+#9 /home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#10 /home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/system/Commands/Server/rewrite.php(47): require_once('...')
+#11 {main}
+CRITICAL - 2024-02-28 14:36:36 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: No such file or directory
+in SYSTEMPATH/Database/BaseConnection.php on line 428.
+ 1 SYSTEMPATH/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+ 3 SYSTEMPATH/Model.php(242): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH/BaseModel.php(638): CodeIgniter\Model->doFindAll()
+ 5 APPPATH/Controllers/Products.php(18): CodeIgniter\BaseModel->findAll()
+ 6 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Products->index()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/public/index.php')
+ERROR - 2024-02-28 14:38:05 --> Error connecting to the database: mysqli_sql_exception: No such file or directory in /home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/system/Database/MySQLi/Connection.php:185
+Stack trace:
+#0 /home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/system/Database/MySQLi/Connection.php(185): mysqli->real_connect()
+#1 /home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/system/Database/BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect()
+#2 /home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/system/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#3 /home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/system/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+#4 /home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/system/Model.php(242): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/system/BaseModel.php(638): CodeIgniter\Model->doFindAll()
+#6 /home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/app/Controllers/Products.php(18): CodeIgniter\BaseModel->findAll()
+#7 /home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/system/CodeIgniter.php(941): App\Controllers\Products->index()
+#8 /home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+#9 /home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+#10 /home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#11 /home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/system/Commands/Server/rewrite.php(47): require_once('...')
+#12 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No such file or directory in /home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/system/Database/MySQLi/Connection.php:229
+Stack trace:
+#0 /home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/system/Database/BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect()
+#1 /home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/system/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#2 /home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/system/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+#3 /home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/system/Model.php(242): CodeIgniter\Database\BaseBuilder->get()
+#4 /home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/system/BaseModel.php(638): CodeIgniter\Model->doFindAll()
+#5 /home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/app/Controllers/Products.php(18): CodeIgniter\BaseModel->findAll()
+#6 /home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/system/CodeIgniter.php(941): App\Controllers\Products->index()
+#7 /home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+#8 /home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+#9 /home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#10 /home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/system/Commands/Server/rewrite.php(47): require_once('...')
+#11 {main}
+CRITICAL - 2024-02-28 14:38:05 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: No such file or directory
+in SYSTEMPATH/Database/BaseConnection.php on line 428.
+ 1 SYSTEMPATH/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+ 3 SYSTEMPATH/Model.php(242): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH/BaseModel.php(638): CodeIgniter\Model->doFindAll()
+ 5 APPPATH/Controllers/Products.php(18): CodeIgniter\BaseModel->findAll()
+ 6 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Products->index()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/public/index.php')
+ERROR - 2024-02-28 14:40:53 --> Error connecting to the database: mysqli_sql_exception: No such file or directory in /home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/system/Database/MySQLi/Connection.php:185
+Stack trace:
+#0 /home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/system/Database/MySQLi/Connection.php(185): mysqli->real_connect()
+#1 /home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/system/Database/BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect()
+#2 /home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/system/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#3 /home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/system/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+#4 /home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/system/Model.php(242): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/system/BaseModel.php(638): CodeIgniter\Model->doFindAll()
+#6 /home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/app/Controllers/Products.php(18): CodeIgniter\BaseModel->findAll()
+#7 /home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/system/CodeIgniter.php(941): App\Controllers\Products->index()
+#8 /home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+#9 /home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+#10 /home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#11 /home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/system/Commands/Server/rewrite.php(47): require_once('...')
+#12 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No such file or directory in /home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/system/Database/MySQLi/Connection.php:229
+Stack trace:
+#0 /home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/system/Database/BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect()
+#1 /home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/system/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#2 /home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/system/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+#3 /home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/system/Model.php(242): CodeIgniter\Database\BaseBuilder->get()
+#4 /home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/system/BaseModel.php(638): CodeIgniter\Model->doFindAll()
+#5 /home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/app/Controllers/Products.php(18): CodeIgniter\BaseModel->findAll()
+#6 /home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/system/CodeIgniter.php(941): App\Controllers\Products->index()
+#7 /home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+#8 /home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+#9 /home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#10 /home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/system/Commands/Server/rewrite.php(47): require_once('...')
+#11 {main}
+CRITICAL - 2024-02-28 14:40:53 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: No such file or directory
+in SYSTEMPATH/Database/BaseConnection.php on line 428.
+ 1 SYSTEMPATH/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+ 3 SYSTEMPATH/Model.php(242): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH/BaseModel.php(638): CodeIgniter\Model->doFindAll()
+ 5 APPPATH/Controllers/Products.php(18): CodeIgniter\BaseModel->findAll()
+ 6 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Products->index()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/public/index.php')
+ERROR - 2024-02-28 14:56:06 --> Error connecting to the database: mysqli_sql_exception: No such file or directory in /home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/system/Database/MySQLi/Connection.php:185
+Stack trace:
+#0 /home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/system/Database/MySQLi/Connection.php(185): mysqli->real_connect()
+#1 /home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/system/Database/BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect()
+#2 /home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/system/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#3 /home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/system/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+#4 /home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/system/Model.php(242): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/system/BaseModel.php(638): CodeIgniter\Model->doFindAll()
+#6 /home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/app/Controllers/Products.php(18): CodeIgniter\BaseModel->findAll()
+#7 /home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/system/CodeIgniter.php(941): App\Controllers\Products->index()
+#8 /home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+#9 /home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+#10 /home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#11 /home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/system/Commands/Server/rewrite.php(47): require_once('...')
+#12 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No such file or directory in /home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/system/Database/MySQLi/Connection.php:229
+Stack trace:
+#0 /home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/system/Database/BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect()
+#1 /home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/system/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#2 /home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/system/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+#3 /home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/system/Model.php(242): CodeIgniter\Database\BaseBuilder->get()
+#4 /home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/system/BaseModel.php(638): CodeIgniter\Model->doFindAll()
+#5 /home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/app/Controllers/Products.php(18): CodeIgniter\BaseModel->findAll()
+#6 /home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/system/CodeIgniter.php(941): App\Controllers\Products->index()
+#7 /home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+#8 /home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+#9 /home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#10 /home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/system/Commands/Server/rewrite.php(47): require_once('...')
+#11 {main}
+CRITICAL - 2024-02-28 14:56:06 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: No such file or directory
+in SYSTEMPATH/Database/BaseConnection.php on line 428.
+ 1 SYSTEMPATH/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+ 3 SYSTEMPATH/Model.php(242): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH/BaseModel.php(638): CodeIgniter\Model->doFindAll()
+ 5 APPPATH/Controllers/Products.php(18): CodeIgniter\BaseModel->findAll()
+ 6 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Products->index()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/public/index.php')
+ERROR - 2024-02-28 14:58:51 --> Error connecting to the database: mysqli_sql_exception: No such file or directory in /home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/system/Database/MySQLi/Connection.php:185
+Stack trace:
+#0 /home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/system/Database/MySQLi/Connection.php(185): mysqli->real_connect()
+#1 /home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/system/Database/BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect()
+#2 /home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/system/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#3 /home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/system/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+#4 /home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/system/Model.php(242): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/system/BaseModel.php(638): CodeIgniter\Model->doFindAll()
+#6 /home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/app/Controllers/Products.php(18): CodeIgniter\BaseModel->findAll()
+#7 /home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/system/CodeIgniter.php(941): App\Controllers\Products->index()
+#8 /home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+#9 /home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+#10 /home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#11 /home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/system/Commands/Server/rewrite.php(47): require_once('...')
+#12 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No such file or directory in /home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/system/Database/MySQLi/Connection.php:229
+Stack trace:
+#0 /home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/system/Database/BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect()
+#1 /home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/system/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#2 /home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/system/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+#3 /home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/system/Model.php(242): CodeIgniter\Database\BaseBuilder->get()
+#4 /home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/system/BaseModel.php(638): CodeIgniter\Model->doFindAll()
+#5 /home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/app/Controllers/Products.php(18): CodeIgniter\BaseModel->findAll()
+#6 /home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/system/CodeIgniter.php(941): App\Controllers\Products->index()
+#7 /home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+#8 /home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+#9 /home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#10 /home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/system/Commands/Server/rewrite.php(47): require_once('...')
+#11 {main}
+CRITICAL - 2024-02-28 14:58:51 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: No such file or directory
+in SYSTEMPATH/Database/BaseConnection.php on line 428.
+ 1 SYSTEMPATH/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+ 3 SYSTEMPATH/Model.php(242): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH/BaseModel.php(638): CodeIgniter\Model->doFindAll()
+ 5 APPPATH/Controllers/Products.php(18): CodeIgniter\BaseModel->findAll()
+ 6 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Products->index()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/public/index.php')
+CRITICAL - 2024-02-28 15:05:51 --> Error: Class "CodeIgniter\Database\PostgreSQL\Connection" not found
+in SYSTEMPATH/Database/Database.php on line 137.
+ 1 SYSTEMPATH/Database/Database.php(55): CodeIgniter\Database\Database->initDriver()
+ 2 SYSTEMPATH/Database/Config.php(82): CodeIgniter\Database\Database->load()
+ 3 SYSTEMPATH/Model.php(153): CodeIgniter\Database\Config::connect()
+ 4 APPPATH/Controllers/Products.php(16): CodeIgniter\Model->__construct()
+ 5 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Products->index()
+ 6 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/public/index.php')
+CRITICAL - 2024-02-28 15:12:15 --> Error: Class "CodeIgniter\Database\PostgreSQL\Connection" not found
+in SYSTEMPATH/Database/Database.php on line 137.
+ 1 SYSTEMPATH/Database/Database.php(55): CodeIgniter\Database\Database->initDriver()
+ 2 SYSTEMPATH/Database/Config.php(82): CodeIgniter\Database\Database->load()
+ 3 SYSTEMPATH/Model.php(153): CodeIgniter\Database\Config::connect()
+ 4 APPPATH/Controllers/Products.php(16): CodeIgniter\Model->__construct()
+ 5 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Products->index()
+ 6 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/public/index.php')
+CRITICAL - 2024-02-28 15:12:40 --> Error: Class "CodeIgniter\Database\PostgreSQL\Connection" not found
+in SYSTEMPATH/Database/Database.php on line 137.
+ 1 SYSTEMPATH/Database/Database.php(55): CodeIgniter\Database\Database->initDriver()
+ 2 SYSTEMPATH/Database/Config.php(82): CodeIgniter\Database\Database->load()
+ 3 SYSTEMPATH/Model.php(153): CodeIgniter\Database\Config::connect()
+ 4 APPPATH/Controllers/Products.php(16): CodeIgniter\Model->__construct()
+ 5 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Products->index()
+ 6 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/public/index.php')
+ERROR - 2024-02-28 15:13:21 --> Error connecting to the database: mysqli_sql_exception: No such file or directory in /home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/system/Database/MySQLi/Connection.php:185
+Stack trace:
+#0 /home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/system/Database/MySQLi/Connection.php(185): mysqli->real_connect()
+#1 /home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/system/Database/BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect()
+#2 /home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/system/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#3 /home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/system/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+#4 /home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/system/Model.php(242): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/system/BaseModel.php(638): CodeIgniter\Model->doFindAll()
+#6 /home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/app/Controllers/Products.php(18): CodeIgniter\BaseModel->findAll()
+#7 /home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/system/CodeIgniter.php(941): App\Controllers\Products->index()
+#8 /home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+#9 /home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+#10 /home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#11 /home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/system/Commands/Server/rewrite.php(47): require_once('...')
+#12 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No such file or directory in /home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/system/Database/MySQLi/Connection.php:229
+Stack trace:
+#0 /home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/system/Database/BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect()
+#1 /home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/system/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#2 /home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/system/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+#3 /home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/system/Model.php(242): CodeIgniter\Database\BaseBuilder->get()
+#4 /home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/system/BaseModel.php(638): CodeIgniter\Model->doFindAll()
+#5 /home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/app/Controllers/Products.php(18): CodeIgniter\BaseModel->findAll()
+#6 /home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/system/CodeIgniter.php(941): App\Controllers\Products->index()
+#7 /home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+#8 /home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+#9 /home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#10 /home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/system/Commands/Server/rewrite.php(47): require_once('...')
+#11 {main}
+CRITICAL - 2024-02-28 15:13:21 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: No such file or directory
+in SYSTEMPATH/Database/BaseConnection.php on line 428.
+ 1 SYSTEMPATH/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+ 3 SYSTEMPATH/Model.php(242): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH/BaseModel.php(638): CodeIgniter\Model->doFindAll()
+ 5 APPPATH/Controllers/Products.php(18): CodeIgniter\BaseModel->findAll()
+ 6 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Products->index()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/public/index.php')
+ERROR - 2024-02-28 15:18:03 --> Error connecting to the database: mysqli_sql_exception: No such file or directory in /home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/system/Database/MySQLi/Connection.php:185
+Stack trace:
+#0 /home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/system/Database/MySQLi/Connection.php(185): mysqli->real_connect()
+#1 /home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/system/Database/BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect()
+#2 /home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/system/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#3 /home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/system/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+#4 /home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/system/Model.php(242): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/system/BaseModel.php(638): CodeIgniter\Model->doFindAll()
+#6 /home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/app/Controllers/Products.php(18): CodeIgniter\BaseModel->findAll()
+#7 /home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/system/CodeIgniter.php(941): App\Controllers\Products->index()
+#8 /home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+#9 /home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+#10 /home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#11 /home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/system/Commands/Server/rewrite.php(47): require_once('...')
+#12 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No such file or directory in /home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/system/Database/MySQLi/Connection.php:229
+Stack trace:
+#0 /home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/system/Database/BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect()
+#1 /home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/system/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#2 /home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/system/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+#3 /home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/system/Model.php(242): CodeIgniter\Database\BaseBuilder->get()
+#4 /home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/system/BaseModel.php(638): CodeIgniter\Model->doFindAll()
+#5 /home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/app/Controllers/Products.php(18): CodeIgniter\BaseModel->findAll()
+#6 /home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/system/CodeIgniter.php(941): App\Controllers\Products->index()
+#7 /home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+#8 /home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+#9 /home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#10 /home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/system/Commands/Server/rewrite.php(47): require_once('...')
+#11 {main}
+CRITICAL - 2024-02-28 15:18:03 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: No such file or directory
+in SYSTEMPATH/Database/BaseConnection.php on line 428.
+ 1 SYSTEMPATH/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+ 3 SYSTEMPATH/Model.php(242): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH/BaseModel.php(638): CodeIgniter\Model->doFindAll()
+ 5 APPPATH/Controllers/Products.php(18): CodeIgniter\BaseModel->findAll()
+ 6 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Products->index()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/public/index.php')
+ERROR - 2024-02-28 15:18:05 --> Error connecting to the database: mysqli_sql_exception: No such file or directory in /home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/system/Database/MySQLi/Connection.php:185
+Stack trace:
+#0 /home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/system/Database/MySQLi/Connection.php(185): mysqli->real_connect()
+#1 /home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/system/Database/BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect()
+#2 /home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/system/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#3 /home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/system/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+#4 /home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/system/Model.php(242): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/system/BaseModel.php(638): CodeIgniter\Model->doFindAll()
+#6 /home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/app/Controllers/Products.php(18): CodeIgniter\BaseModel->findAll()
+#7 /home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/system/CodeIgniter.php(941): App\Controllers\Products->index()
+#8 /home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+#9 /home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+#10 /home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#11 /home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/system/Commands/Server/rewrite.php(47): require_once('...')
+#12 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No such file or directory in /home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/system/Database/MySQLi/Connection.php:229
+Stack trace:
+#0 /home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/system/Database/BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect()
+#1 /home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/system/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#2 /home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/system/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+#3 /home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/system/Model.php(242): CodeIgniter\Database\BaseBuilder->get()
+#4 /home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/system/BaseModel.php(638): CodeIgniter\Model->doFindAll()
+#5 /home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/app/Controllers/Products.php(18): CodeIgniter\BaseModel->findAll()
+#6 /home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/system/CodeIgniter.php(941): App\Controllers\Products->index()
+#7 /home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+#8 /home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+#9 /home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#10 /home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/system/Commands/Server/rewrite.php(47): require_once('...')
+#11 {main}
+CRITICAL - 2024-02-28 15:18:05 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: No such file or directory
+in SYSTEMPATH/Database/BaseConnection.php on line 428.
+ 1 SYSTEMPATH/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+ 3 SYSTEMPATH/Model.php(242): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH/BaseModel.php(638): CodeIgniter\Model->doFindAll()
+ 5 APPPATH/Controllers/Products.php(18): CodeIgniter\BaseModel->findAll()
+ 6 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Products->index()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/public/index.php')
+ERROR - 2024-02-28 15:18:54 --> Error connecting to the database: mysqli_sql_exception: No such file or directory in /home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/system/Database/MySQLi/Connection.php:185
+Stack trace:
+#0 /home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/system/Database/MySQLi/Connection.php(185): mysqli->real_connect()
+#1 /home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/system/Database/BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect()
+#2 /home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/system/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#3 /home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/system/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+#4 /home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/system/Model.php(242): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/system/BaseModel.php(638): CodeIgniter\Model->doFindAll()
+#6 /home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/app/Controllers/Products.php(18): CodeIgniter\BaseModel->findAll()
+#7 /home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/system/CodeIgniter.php(941): App\Controllers\Products->index()
+#8 /home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+#9 /home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+#10 /home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#11 /home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/system/Commands/Server/rewrite.php(47): require_once('...')
+#12 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No such file or directory in /home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/system/Database/MySQLi/Connection.php:229
+Stack trace:
+#0 /home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/system/Database/BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect()
+#1 /home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/system/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#2 /home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/system/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+#3 /home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/system/Model.php(242): CodeIgniter\Database\BaseBuilder->get()
+#4 /home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/system/BaseModel.php(638): CodeIgniter\Model->doFindAll()
+#5 /home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/app/Controllers/Products.php(18): CodeIgniter\BaseModel->findAll()
+#6 /home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/system/CodeIgniter.php(941): App\Controllers\Products->index()
+#7 /home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+#8 /home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+#9 /home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#10 /home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/system/Commands/Server/rewrite.php(47): require_once('...')
+#11 {main}
+CRITICAL - 2024-02-28 15:18:54 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: No such file or directory
+in SYSTEMPATH/Database/BaseConnection.php on line 428.
+ 1 SYSTEMPATH/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+ 3 SYSTEMPATH/Model.php(242): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH/BaseModel.php(638): CodeIgniter\Model->doFindAll()
+ 5 APPPATH/Controllers/Products.php(18): CodeIgniter\BaseModel->findAll()
+ 6 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Products->index()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/public/index.php')
+ERROR - 2024-02-28 15:21:08 --> Error connecting to the database: mysqli_sql_exception: No such file or directory in /home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/system/Database/MySQLi/Connection.php:185
+Stack trace:
+#0 /home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/system/Database/MySQLi/Connection.php(185): mysqli->real_connect()
+#1 /home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/system/Database/BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect()
+#2 /home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/system/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#3 /home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/system/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+#4 /home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/system/Model.php(242): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/system/BaseModel.php(638): CodeIgniter\Model->doFindAll()
+#6 /home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/app/Controllers/Products.php(18): CodeIgniter\BaseModel->findAll()
+#7 /home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/system/CodeIgniter.php(941): App\Controllers\Products->index()
+#8 /home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+#9 /home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+#10 /home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#11 /home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/system/Commands/Server/rewrite.php(47): require_once('...')
+#12 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No such file or directory in /home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/system/Database/MySQLi/Connection.php:229
+Stack trace:
+#0 /home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/system/Database/BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect()
+#1 /home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/system/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#2 /home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/system/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+#3 /home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/system/Model.php(242): CodeIgniter\Database\BaseBuilder->get()
+#4 /home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/system/BaseModel.php(638): CodeIgniter\Model->doFindAll()
+#5 /home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/app/Controllers/Products.php(18): CodeIgniter\BaseModel->findAll()
+#6 /home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/system/CodeIgniter.php(941): App\Controllers\Products->index()
+#7 /home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+#8 /home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+#9 /home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#10 /home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/system/Commands/Server/rewrite.php(47): require_once('...')
+#11 {main}
+CRITICAL - 2024-02-28 15:21:08 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: No such file or directory
+in SYSTEMPATH/Database/BaseConnection.php on line 428.
+ 1 SYSTEMPATH/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+ 3 SYSTEMPATH/Model.php(242): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH/BaseModel.php(638): CodeIgniter\Model->doFindAll()
+ 5 APPPATH/Controllers/Products.php(18): CodeIgniter\BaseModel->findAll()
+ 6 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Products->index()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/public/index.php')
+ERROR - 2024-02-28 15:21:11 --> Error connecting to the database: mysqli_sql_exception: No such file or directory in /home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/system/Database/MySQLi/Connection.php:185
+Stack trace:
+#0 /home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/system/Database/MySQLi/Connection.php(185): mysqli->real_connect()
+#1 /home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/system/Database/BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect()
+#2 /home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/system/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#3 /home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/system/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+#4 /home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/system/Model.php(242): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/system/BaseModel.php(638): CodeIgniter\Model->doFindAll()
+#6 /home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/app/Controllers/Products.php(18): CodeIgniter\BaseModel->findAll()
+#7 /home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/system/CodeIgniter.php(941): App\Controllers\Products->index()
+#8 /home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+#9 /home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+#10 /home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#11 /home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/system/Commands/Server/rewrite.php(47): require_once('...')
+#12 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No such file or directory in /home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/system/Database/MySQLi/Connection.php:229
+Stack trace:
+#0 /home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/system/Database/BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect()
+#1 /home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/system/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#2 /home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/system/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+#3 /home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/system/Model.php(242): CodeIgniter\Database\BaseBuilder->get()
+#4 /home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/system/BaseModel.php(638): CodeIgniter\Model->doFindAll()
+#5 /home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/app/Controllers/Products.php(18): CodeIgniter\BaseModel->findAll()
+#6 /home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/system/CodeIgniter.php(941): App\Controllers\Products->index()
+#7 /home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+#8 /home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+#9 /home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#10 /home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/system/Commands/Server/rewrite.php(47): require_once('...')
+#11 {main}
+CRITICAL - 2024-02-28 15:21:11 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: No such file or directory
+in SYSTEMPATH/Database/BaseConnection.php on line 428.
+ 1 SYSTEMPATH/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+ 3 SYSTEMPATH/Model.php(242): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH/BaseModel.php(638): CodeIgniter\Model->doFindAll()
+ 5 APPPATH/Controllers/Products.php(18): CodeIgniter\BaseModel->findAll()
+ 6 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Products->index()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/home/user/Development/Code Igniter/codeigniter4/simple-rest-api-ci4/public/index.php')
